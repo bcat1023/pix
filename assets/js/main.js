@@ -171,3 +171,24 @@
 		})();
 
 })();
+
+
+function sub() {
+	$message = document.createElement('span');
+					$message.classList.add('message');
+					$form.appendChild($message);
+
+				$message._show = function(type, text) {
+
+					$message.innerHTML = text;
+					$message.classList.add(type);
+					$message.classList.add('visible');
+					document.getElementById('submitbutton').style.transform = 'rotateY(90deg)'
+
+					window.setTimeout(function() {
+						$message._hide();
+						//hideall();
+					}, 3000);
+
+				};
+}
