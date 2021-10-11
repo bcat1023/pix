@@ -20,8 +20,9 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#" netlify>
+			<form id="signup-form" method="post" netlify-honeypot="bot-field" data-netlify="true">
 				<input type="email" name="email" id="email" placeholder="Email Address" />
+				<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
 				<input type="submit" value="Sign Up" />
 			</form>
 
