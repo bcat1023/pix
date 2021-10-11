@@ -153,6 +153,7 @@ body {
       -moz-animation: bg 45s linear infinite;
       -webkit-animation: bg 45s linear infinite;
       -ms-animation: bg 45s linear infinite;
+      margin-right: 78px;
       animation: bg 45s linear infinite;
       opacity: 1;
       visibility: visible;
@@ -477,7 +478,8 @@ form {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
-      opacity: 1; }
+      opacity: 1; 
+      transform: translateX(-84px) }
     form .message.success {
       color: #1cb495; }
       form .message.success:before {
@@ -824,7 +826,8 @@ button,
       #signup-form input[type="email"] {
         width: 100%; }
       #signup-form > * {
-        margin: 1.25em 0 0 0; }
+        margin: 1.25em 0 0 0; 
+      }
       #signup-form .message {
         bottom: -1.5em;
         font-size: 0.9em;

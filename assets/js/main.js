@@ -123,15 +123,17 @@
 					$message.innerHTML = text;
 					$message.classList.add(type);
 					$message.classList.add('visible');
+					document.getElementById('submitbutton').style.transform = 'rotateY(90deg)'
 
 					window.setTimeout(function() {
 						$message._hide();
+						//hideall();
 					}, 3000);
 
 				};
 
 				$message._hide = function() {
-					$message.classList.remove('visible');
+					//$message.classList.remove('visible');
 				};
 
 			// Events.

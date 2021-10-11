@@ -5,43 +5,60 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>PIX | Coming Soon</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<header id="header">
-				<h1>PIX</h1>
-				<p>Lite-Tek Is Now PIX Software<br>pixsoftware.netlify.app is under construction, coming soon<br><br>Add your email to know when its ready</p>
-			</header>
+<head>
+	<title>PIX | Coming Soon</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-		<!-- Signup Form -->
-			<form id="signup-form" method="post" data-netlify-recaptcha="true" data-netlify="true">
-				<input type="email" name="email" id="email" placeholder="Email Address" />
-				<input type="submit" value="Sign Up" />
-				<br>
-				<div data-netlify-recaptcha="true"></div>
-			</form>
+<body class="is-preload">
 
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+	<!-- Header -->
+	<header id="header">
+		<h1>PIX</h1>
+		<p>Lite-Tek Is Now PIX Software<br>pixsoftware.netlify.app is under construction, coming soon<br><br>Add your
+			email to know when its ready</p>
+	</header>
+
+	<!-- Signup Form -->
+	<form name="signup-form" id="signup-form" action="#" method="POST" data-netlify-recaptcha="true"
+		data-netlify="true">
+		<input type="email" name="email" placeholder="Email Address" />
+		<input type="submit" style="position: fixed;top: 0;opacity: 1;transition: 0s;height: 0px;width: 0px;"
+			value="Sign Up" />
+		<button style="height: 3.1em;transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;" value="Sign Up" id="submitbutton" onclick="submited()" type="submit">Sign
+			Up</button>
+		<div style="position: absolute;top: 53px;" data-netlify-recaptcha="true"></div>
+	</form>
+	<script>
+		function submited() {
+			console.log('POST sent to server')
+			document.getElementById('submitbutton').style.opacity = '0.5';
+		}
+
+		function hideall() {
+			document.getElementById('submitbutton').style.opacity = '1';
+		}
+	</script>
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="icons">
+			<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>-->
-				</ul>
-				<ul class="copyright">
-					<li>&copy; PIX Software.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; PIX Software.</li>
+			<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
