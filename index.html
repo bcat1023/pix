@@ -1,63 +1,228 @@
 <!DOCTYPE HTML>
 <!--
-	Eventually by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
 <head>
-	<title>PIX | Coming Soon</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+  <title>PIX Software</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
 </head>
 
 <body class="is-preload">
 
-	<!-- Header -->
-	<header id="header">
-		<h1>PIX</h1>
-		<p>Lite-Tek Is Now PIX Software<br>pixsoftware.netlify.app is under construction, coming soon<br><br>Add your
-			email to know when its ready</p>
-	</header>
+  <!-- Sidebar -->
+  <section id="sidebar">
+    <div class="inner">
+      <nav>
+        <ul>
+          <li><a href="#intro">Welcome</a></li>
+          <li><a href="#one">News</a></li>
+          <li><a href="#two">Our Software</a></li>
+          <li><a href="#three">Our Goal</a></li>
+          <li><a href="#four">Get in touch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
 
-	<!-- Signup Form -->
-	<form style="margin: 0 0 2em 0;display: -moz-flex;display: -webkit-flex;display: -ms-flex;display: flex;position: relative;" action="/submited" name="signup-form" method="POST" data-netlify="true">
-		<input type="email" name="email-address" style="width: 18em;" placeholder="Email Address" />
-		<input type="submit" style="position: fixed;top: 0;opacity: 1;transition: 0s;height: 0px;width: 0px;"
-			value="Sign Up" />
-		<button style="margin: 0 0 0 1em;height: 3.1em;transition: all 0.2s cubic-bezier(0.4, 0, 1, 1) 0s;" value="Sign Up" id="submitbutton" onclick="submited()" type="submit">Sign
-			Up</button>
-			<p>fixed forum, all users that submitted before this message please resubmmits</p>
-	  </form>
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-	<script>
-		function submited() {
-			console.log('POST sent to server')
-			document.getElementById('submitbutton').style.opacity = '0.5';
-		}
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+      <div class="inner">
+        <h1>PIX Software</h1>
+        <p>Redefining the definition of quality software</p>
+        <ul class="actions">
+          <li><a href="#three" class="button scrolly">Learn more</a></li>
+        </ul>
+      </div>
+    </section>
 
-		function hideall() {
-			document.getElementById('submitbutton').style.opacity = '1';
-		}
-	</script>
-	<!-- Footer -->
-	<footer id="footer">
-		<ul class="icons">
-			<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>-->
-		</ul>
-		<ul class="copyright">
-			<li>&copy; PIX Software.</li>
-			<li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
-	</footer>
+    <!-- One -->
+    <section id="one" class="wrapper style2 spotlights">
+      <section>
+        <a href="#" class="image"><img src="images/logo.svg" style="background-image: url(./images/pic01.jpg);" alt="" data-position="center center" /></a>
+        <div class="content">
+          <div class="inner">
+            <h2>Lite-Tek Is Now Know As PIX Software</h2>
+            <p>Lite-Tek,bthecat,Field Game Studios Are All Now Know As PIX Software.</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+        <div class="content">
+          <div class="inner">
+            <h2>Thats the end of this list</h2>
+            <p>Check back at A later date for more news.</p>
+            <!--<ul class="actions">
+										<li><a href="generic.html" class="button">Learn more</a></li>
+									</ul>-->
+          </div>
+        </div>
+      </section>
+    </section>
 
-	<!-- Scripts -->
-	<script src="assets/js/main.js"></script>
+    <!-- Two -->
+    <section id="two" class="wrapper style3 fade-up">
+      <div class="inner">
+        <h2>Our Software</h2>
+        <div class="features">
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Electron</h3>
+            <p>A 2-D Side Scroll Platformer Game</p>
+            <ul class="actions">
+              <li><a href="https://fieldgames.netlify.app/games/electron/" target="_blank" class="button">Play</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Student-Zone</h3>
+            <p>Student-Zone is an unofficial web portal for NVUSD students used by students to get to resources quicker.
+            </p>
+            <ul class="actions">
+              <li><a href="https://student-zone.netlify.app/" target="_blank" class="button">Open</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>SuperNet (discontinued)</h3>
+            <p>A version of Student-Zone thats made for people that aren't students and just a regular start page or web
+              portal, this project was given up on while it was in development</p>
+            <ul class="actions">
+              <li><a href="https://supernet.netlify.app/" target="_blank" class="button">Open</a></li>
+              <li><a href="https://github.com/bcat1023/super.net" target="_blank" class="button">View on GitHub</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Dew</h3>
+            <p>Its like Siri&copy; for the web, A smart assistant that works like Google&copy; you ask it a question and
+              it answers.</p>
+            <ul class="actions">
+              <li><a href="/#" target="_blank" class="button">Coming Soon</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>FormScript</h3>
+            <p>Free CSS template and framework built for speed and the modern web.</p>
+            <ul class="actions">
+              <li><a href="https://formscript.netlify.app/" target="_blank" class="button">Open</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Blacktop-OS</h3>
+            <p>A modern WebTop or Operating System that runs in your browser. It does all the same tasks as your
+              chromebook but faster and based off the internet.</p>
+            <ul class="actions">
+              <li><a href="https://blacktop-os.pages.dev/" target="_blank" class="button">Open</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>ETC (Python)</h3>
+            <p>A Python Shell made to do everything you can need, In early beta and just getting started.</p>
+            <ul class="actions">
+              <li><a href="https://github.com/bcat1023/ETC" target="_blank" class="button">View on GitHub</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>Eternity (Python)</h3>
+            <p>Eternity is a role playing game where you are a player who is fighting to live to be the best warrior. But
+              to do that your warrior bust face many blockages in his way. He fights and fights in this text-based rpg.
+            </p>
+            <ul class="actions">
+              <li><a href="https://bcat1023.github.io/Eternity/" target="_blank" class="button">Open</a></li>
+              <li><a href="https://github.com/bcat1023/Eternity" target="_blank" class="button">View on GitHub</a></li>
+            </ul>
+          </section>
+          <section>
+            <span class="icon solid major fa-desktop"></span>
+            <h3>World Wide Network</h3>
+            <p>Your first stop on the internet to get where you need and know what you need to know</p>
+            <ul class="actions">
+              <li><a href="https://wwn.vercel.app/" target="_blank" class="button">Open</a></li>
+            </ul>
+          </section>
+          <section>
+            <h3>More coming soon</h3>
+            <p>Check back soon</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three -->
+    <section id="three" style="background-color: #4c3685;" class="wrapper style1 fade-up">
+      <div class="inner">
+        <h2>Our goal to serve you the tools you need to finish or start your day</h2>
+        <p>Here at PIX Software our goal is to redefine the words quality software and create something thats easy to use and that works everywhere not just on your phone or on just your laptop but everywhere, no matter what device we try to make it so our software works on everything and adapts to fit your screen and to be easy to use without having to struggle with tiny buttons and text boxes. No matter how hard it is to make the software we will do our best and be open to feed back to provide the best experience possible to serve you the way you need. Starting with universal software that works on everything, Most of our software is built to work on almost any device, if it has a web browser chances are it works. Another thing we work on is speed, We all know how it feels to be using a site or some sort of software that is slow and laggy, Thats why we do whatever we can to speed up our software to make it quick and responsive. Another goal we have is to make our sites look modern with loads of fancy transitions and animations while not making the user wait for the animation to end which allows a quick responsive feel to our work. Here at PIX Software we want you to enjoy our work and be able to use it without issue and if you do have a complaint or issue please don't hesitate to contact us with the form at the bottom of this page. Thank you for taking the time out of your day to read this long amount of text.</p>
+      </div>
+    </section>
+
+    <!-- Four -->
+    <section id="four" class="wrapper style1 fade-up">
+      <div class="inner">
+        <h2>Get in touch</h2>
+        <div class="split style1">
+          <section style="width: 100%;">
+            <form name="contact" method="POST" data-netlify="true" action="#four">
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="5"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li><a href="" class="button submit">Send Message</a></li>
+              </ul>
+            </form>
+          </section>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="wrapper style1-alt">
+    <div class="inner">
+      <ul class="menu">
+        <li>&copy; PIX Software. All rights reserved.</li>
+        <li>Framework: <a href="http://html5up.net">HTML5 UP</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
 
